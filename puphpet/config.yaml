@@ -184,7 +184,7 @@ apache:
             servername: akwilian-albumy.site
             serveraliases:
                 - albumy.akwilian
-            docroot: /var/www/akwilian-albumy
+            docroot: /var/www/akwilian-albumy/web
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -200,7 +200,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_r4t7w38khhwl:
-                    path: /var/www/awesome
+                    path: /var/www/akwilian-albumy/web
                     options:
                         - Indexes
                         - FollowSymlinks
